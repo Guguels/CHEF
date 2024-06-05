@@ -1,0 +1,117 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-color: #FFFFFF; /* Fondo Principal: Blanco Puro */
+  color: #6B4226; /* Texto Principal: Marrón Chocolate */
+}
+
+h1 {
+  color: #6B4226; /* Encabezados: Marrón Chocolate */
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h2 {
+  color: #6B4226; /* Subtítulos: Marrón Chocolate */
+  margin-bottom: 10px;
+}
+
+input {
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px 15px;
+  border: none;
+  background-color: #E94E4E; /* Botones de Acción: Rojo Tomate */
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #D94141; /* Botones de Acción: Rojo Tomate más oscuro */
+}
+
+.receta {
+  border: 1px solid #ccc;
+  padding: 16px;
+  margin: 16px 0;
+  background-color: #FFF8E7; /* Fondos de Sección: Crema */
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.receta:nth-child(even) {
+  background-color: #F0F0F0; /* Fondos de Sección alternos: Gris Claro */
+}
+
+.receta h3 {
+  margin-top: 0;
+  color: #9DC183; /* Títulos de Receta: Verde Salvia */
+}
+
+.receta p {
+  line-height: 1.6;
+  color: #6B4226; /* Texto Principal: Marrón Chocolate */
+}
+
+#resultadoNombre, #resultadoIngrediente {
+  margin-top: 20px;
+}
+
+nav, footer {
+  background-color: #9DC183; /* Barra de Navegación y Pie de Página: Verde Salvia */
+  padding: 10px;
+  text-align: center;
+  color: #FFFFFF; /* Texto de Navegación y Pie de Página: Blanco Puro */
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav a, footer a {
+  color: #FFFFFF; /* Enlaces en Navegación y Pie de Página: Blanco Puro */
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+nav a:hover, footer a:hover {
+  background-color: #E94E4E; /* Enlaces Hover: Rojo Tomate */
+}
+footer {
+  background-color: #9DC183; /* Fondo: Verde Salvia */
+  padding: 10px;
+  text-align: center;
+  color: #FFFFFF; /* Texto: Blanco Puro */
+  font-size: 14px; /* Tamaño de texto pequeño */
+}
+
+footer a {
+  color: #FFFFFF; /* Enlaces: Blanco Puro */
+  text-decoration: none;
+  margin: 0 10px;
+  padding: 5px 10px;
+  border-radius: 4px;
+  font-size: 14px; /* Tamaño de texto pequeño */
+}
+
+footer a:hover {
+  background-color: #E94E4E; /* Enlaces Hover: Rojo Tomate */
+}
